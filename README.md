@@ -1,4 +1,6 @@
 # Driving-Parameters-Supplemented-to-arXiv-2305.17097
+[![DOI](https://zenodo.org/badge/690008146.svg)](https://zenodo.org/badge/latestdoi/690008146)
+
 We will update the paper arXiv:2305.17097 soon. This repository contains data for driving parameters in the 5 figures in Supp. Mat of the updated version.
 
 $\eta$ range is $[0, \log(2.6)+x]$ with 200 equally spaced points. For Fig. S1 (a), the $102^{\mathrm{th}}$, $103^{\mathrm{th}}$ and $104^{\mathrm{th}}$ $\eta$ values are excluded. Such $\eta$ values are near $1/2$.
