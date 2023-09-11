@@ -3,7 +3,7 @@ We will update the paper arXiv:2305.17097 soon. This repository contains data fo
 $\eta$ range is $[0, \log(2.6)+x]$ with 200 equally spaced points.
 Pickle files with driving parameters contains Fourier modes in the form of Eq. (S14) in Supp. Mat. in arXiv.2305.17097.
 They can be opened in Python with, e.g. (after renaming files)
-'''python
+```python
 import pickle
 import numpy as np
 
@@ -18,4 +18,4 @@ with open('drive_z.pickle', 'rb') as f:
 
 with open('x.pickle', 'rb') as f:
     x = pickle.load(f)
-  '''
+```
