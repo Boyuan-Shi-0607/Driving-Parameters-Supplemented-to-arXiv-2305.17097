@@ -20,4 +20,4 @@ with open('x.pickle', 'rb') as f:
     x = pickle.load(f)
 ```
 
-Numpy arrays are arranged from the most negative Fourier modes to the most positive Fourier modes. E.g. $\mathrm{drive_x}[i, j]$ refers to the $\omega_{1}$ mode being $i-M1$ and $\omega_{2}$ modes being $j-M2$.
+Numpy arrays are arranged from the most negative Fourier modes to the most positive Fourier modes. E.g. $\mathrm{drive}_{\text{x},\text{y},\text{z}}[i, j]$ refers to the $(i-M_{1})^{\mathrm{th}}$ $\omega_{1}$ mode $(j-M_{2})^{\mathrm{th}}$ $\omega_{2}$ mode of $d_{x}(t)$, $d_{yy}(t)$ and $d_{zz}(t)$.
